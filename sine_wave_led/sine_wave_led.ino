@@ -24,6 +24,7 @@ void sin_pwm(const int pin_number, const unsigned long timer, const unsigned int
     unsigned long mod = timer % len;
     
     //function used: 0.5 * (1 + sin(2*pi*x - pi/2))
+    float f = 0.5f * (1.0f + sin(2.0f * PI * (mod/(float)len) - PI * 0.5f));
     analogWrite(pin_number, (unsigned uint8_t) (f * 255.0f));
 }
 
