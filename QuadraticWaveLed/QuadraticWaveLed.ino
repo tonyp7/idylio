@@ -1,5 +1,5 @@
 /*
-  sine_wave_led_hack
+  QuadraticWaveLed
   Pulses a LED according to a sine wave, with the periodicity given as argument.
 
   The pins output used for these must be PWM pins.
@@ -9,7 +9,7 @@
   This example code is licensed under CC BY 4.0.
   Please see https://creativecommons.org/licenses/by/4.0/
 
-  modified 18 January 2017
+  modified 20 January 2017
   by Tony Pottier
   
 */
