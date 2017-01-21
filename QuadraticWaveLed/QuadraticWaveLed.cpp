@@ -21,7 +21,7 @@
 
 //Apply the following function:
 // f(x) = x^2 if x <= 1
-// f(x) = (x-2)^2 + 2 if 1 < x <= 3
+// f(x) = -(x-2)^2 + 2 if 1 < x <= 3
 // f(x) = (x-4)^2 otherwise
 // this function is almost a perfect sine wave on the [0;4] range.
 f7p9 QuadraticWaveLed::quadraticWavef7p9(f7p9 x) {
