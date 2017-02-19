@@ -6,7 +6,7 @@ const char* ON_MESSAGE = new char[1]{0x55}; //binary 0101 0101
 const char* OFF_MESSAGE = new char[1]{0x96}; //binary 1001 0110
 
 //setup the driver as such:
-// speed: 4800 bits per second
+// speed: 2400 bits per second
 // rxPin - receiving pin: 11 --not used for this transmitting script
 // txPin - transmitting pin: 12
 // pttPin - transmitting enable pin: 10 --not used for this transmitting script. 
